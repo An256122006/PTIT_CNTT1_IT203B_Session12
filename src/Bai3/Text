@@ -1,0 +1,4 @@
+registerOutParameter() giúp JDBC xác định kiểu dữ liệu và vị trí của tham số OUT trước khi thực thi.
+Driver cần thông tin này để cấp phát bộ nhớ và nhận dữ liệu trả về từ database.
+Nếu không đăng ký trước sẽ gây lỗi runtime.
+Kiểu DECIMAL trong SQL được đăng ký bằng Types.DECIMAL trong Java.

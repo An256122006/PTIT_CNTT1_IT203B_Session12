@@ -1,0 +1,3 @@
+Các phương thức setDouble(), setInt() giúp truyền dữ liệu theo kiểu nguyên thủy (numeric type) thay vì chuỗi.
+JDBC Driver sẽ tự động chuyển đổi sang định dạng chuẩn của database, không phụ thuộc vào dấu . hay , của hệ điều hành.
+Nhờ đó tránh lỗi định dạng và giúp chương trình ổn định hơn.

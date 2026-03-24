@@ -1,0 +1,3 @@
+Việc parse và lập Execution Plan nhiều lần cho cùng cấu trúc SQL gây lãng phí CPU, bộ nhớ và thời gian xử lý.
+Khi thực hiện 1000 lần, database phải lặp lại các bước giống nhau → làm giảm hiệu năng hệ thống.
+Sử dụng PreparedStatement giúp tái sử dụng Execution Plan, tránh lãng phí tài nguyên và tăng hiệu suất.
